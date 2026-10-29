@@ -1,10 +1,8 @@
 import sys
 
-string = sys.argv[1]
-reverse = string[::-1]
+word = sys.argv[1]
 
-if string == reverse:
-    print("Palindrome")
+if word == word[::-1]:
+    print(word, "is a Palindrome")
 else:
-    print("Not a Palindrome")
-    
+    print(word, "is not a Palindrome")
